@@ -3,7 +3,7 @@ var filesToCache = [
   '/',
   '/index.html',
   '/app.js',
-  'style.css'
+  '/style.css'
 ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
