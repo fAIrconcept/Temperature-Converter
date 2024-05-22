@@ -30,3 +30,12 @@ fahrenheit.addEventListener('input', function () {
     celsius.value = cel;
 
 })
+
+window.onload = () => {
+  'use strict';
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/sw.js');
+  }
+}
